@@ -1,3 +1,13 @@
+body{
+    font-family: sans-serif;
+    font-size: 32px;
+    background:#89B9FF;
+    color:#45014B;
+}
+.hero-image{
+    height: 10rem;
+    margin-bottom:3rem;
+}
 .header {
     background-color: #F794DC;
     height: 100px;
