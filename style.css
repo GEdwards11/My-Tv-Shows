@@ -1,38 +1,70 @@
-body{
-    font-family: sans-serif;
-    font-size: 32px;
-    background:#89B9FF;
-    color:#45014B;
+.quote{
+    background-image:url('https://i.imgflip.com/f0vr7.jpg');
+    padding: 5rem;
+    color:#000000 ;
+    font-size:4rem;
+    max-width: 90%;
+    text-align: center;
+    background-repeat: repeat-x;
+    background-position: right;
+    margin:2rem;
 }
-.image{
-    height: 10rem;
-    margin-bottom:3rem;
-    position: relative;
+.first-page{
+    background: #FCDEFF;
+    align-content: center;
 }
+.second-page{
+    background:#4BE4FF;
+    align-content: center;
+}
+.third-page{
+    background: #FFC3F6;
+    align-content: center;
 
-h1 {text-align:center;}
-
+}
+h1 {
+    text-align:center;
+    color:  #BF2800;
+    font-size: 35px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.nav{
+    text-align: center;
+    color:#BF2800;
+    font-size: 20px;
+    margin-top:  10px;
+}
 body {
     font-family: Times New Roman, sans-serif;
 }
 h3 {
 	text-align: center;
-	font-size: 30px
+    color:  #BF2800;
+	font-size: 30px;
 }
 p {
     font-size:20px;
     font-style: sans-serif;
     position: relative;
-    padding: 3rem 2rem;
-    margin-right:10rem;
-    margin-left:10rem ;
+    padding: 1rem 1rem;
+    margin-right:3rem;
+    margin-left:3rem ;
 }
 .section--page {
-    height: 55vh;
-    background:pink;
+    height: 40vh;
+    padding: 2rem 1rem 1rem;
 }
-ul li{
-    padding: 5px;
+.nav__item {
+    list-style:none;
+    display: inline-block;
+}
+.nav__link {
+    padding: .5rem;   
 }
 
 
